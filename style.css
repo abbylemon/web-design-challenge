@@ -1,3 +1,33 @@
 body{
-    background-color: black;
+    background:lightgray;
+}
+
+.box {
+    background:white;
+    padding: 50px;
+}
+
+/* .summary > img,
+.summary > p {
+    display: inline; */
+    /* width: 400px; */
+    /* float: right; */
+/* } */
+
+.box h1{
+    color: pink;
+}
+
+.box h2{
+    color: pink
+}
+
+.lead-img{
+    width: 200px;
+    height: 200px;
+}
+
+.sm-img{
+    width: 150px;
+    height: 150px
 }
