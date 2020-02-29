@@ -10,6 +10,10 @@ body{
     margin: 0px;
 }
 
+.dropdown a{
+    position: relative;
+}
+
 .navbar-brand{
     background-color: pink;
     color: white;
@@ -77,8 +81,15 @@ h2{
     line-height: 2;
 }
 
-.summary img{
+.landing img{
     float: left;
+    width: 300px;
+    height: 250px;
+    margin: 30px 10px 10px 50px;
+    text-align: center;
+}
+
+.summary img{
     width: 300px;
     height: 250px;
     margin: 30px 10px 10px 50px;
@@ -106,6 +117,20 @@ h2{
 }
 
 /* comparison box styling end */
+/* data talbe start */
+
+/* #table-container{
+    CsvToHtmlTable.init({
+    csv_path: 'Resources/cities.csv',
+    element: 'table-container', 
+    allow_download: true,
+    csv_options: {separator: ';', delimiter: '"'},
+    datatables_options: {"paging": false}
+  })
+} */
+
+
+/* data table end */
 /* footer styling start */
 
 .copyright-container{
