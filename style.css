@@ -105,9 +105,21 @@ h2{
 /* comparision box styling start */
 
 .comparison{
-    /* margin: 0px; */
     background-color: white;
     margin-bottom: 50px;
+}
+
+/* .comparison box{
+    margin-bottom: 0px;
+} */
+
+.comparison h2{
+    text-align: center;
+}
+
+.comparison_images{
+    margin-top: 0px;
+    padding-top: 50px;
 }
 
 .comparison img{
@@ -117,7 +129,7 @@ h2{
 }
 
 .comparison p{
-    margin-left: 12px;
+    margin-left: 25px;
 }
 
 .viz_comp{
