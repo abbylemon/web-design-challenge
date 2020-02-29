@@ -71,7 +71,7 @@ h2{
     color: pink;
 }
 
-p{
+summary p{
     margin: 50px 50px 0px;
     /* padding-bottom: 30px; */
     line-height: 2;
@@ -93,6 +93,20 @@ p{
 }
 
 /* box styling end */
+/* comparision box styling start */
+
+.comparison img{
+    /* vertical-align: top; */
+    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.comparison p{
+    margin-left: 12px;
+}
+
+/* comparison box styling end */
 /* footer styling start */
 
 .copyright-container{
