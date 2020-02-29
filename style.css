@@ -106,6 +106,12 @@ h2{
 /* box styling end */
 /* comparision box styling start */
 
+.comparison{
+    /* margin: 0px; */
+    background-color: white;
+    margin-bottom: 50px;
+}
+
 .comparison img{
     display: inline-block;
     max-width: 100%;
@@ -114,6 +120,12 @@ h2{
 
 .comparison p{
     margin-left: 12px;
+}
+
+.viz_comp{
+    border-style: solid;
+    border-width: 2px;
+    border-color: pink;
 }
 
 /* comparison box styling end */
