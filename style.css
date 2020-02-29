@@ -52,6 +52,7 @@ body{
     background-color: white;
     margin-top: 50px;
     padding-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 hr{
@@ -71,9 +72,8 @@ h2{
     color: pink;
 }
 
-summary p{
+.summary p{
     margin: 50px 50px 0px;
-    /* padding-bottom: 30px; */
     line-height: 2;
 }
 
@@ -96,7 +96,6 @@ summary p{
 /* comparision box styling start */
 
 .comparison img{
-    /* vertical-align: top; */
     display: inline-block;
     max-width: 100%;
     max-height: 100%;
