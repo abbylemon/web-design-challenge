@@ -86,15 +86,29 @@ p{
 }
 
 .vizualization img{
-    /* margin-left: 10px; */
-    box-align: center;
-    width: 100px;
-    height: 100px;
-    margin-left: 30px;
+    vertical-align: top;
+    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /* box styling end */
 /* footer styling start */
 
+.copyright-container{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.copyright{
+    background:slategray;
+    color: white;
+    text-emphasis: bold;
+    text-align: center;
+    padding: 10px 100px;
+    margin-left: 0%;
+    margin-right: 0%;
+    border-top: 5px solid pink
+}
 
 /* footer styling end */
