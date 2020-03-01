@@ -140,15 +140,31 @@ h2{
 /* comparison box styling end */
 /* data talbe start */
 
-/* #table-container{
-    CsvToHtmlTable.init({
-    csv_path: 'Resources/cities.csv',
-    element: 'table-container', 
-    allow_download: true,
-    csv_options: {separator: ';', delimiter: '"'},
-    datatables_options: {"paging": false}
-  })
-} */
+.table{
+    box-align: center;
+    /* margin: 10px 25px; */
+}
+
+thead{
+    background-color:slategrey;
+    color: white;
+    text-align: center;
+}
+
+tbody{
+    /* background-color: pink; */
+    color: slategrey;
+    text-align: center;
+}
+
+.data p{
+    margin-left: 15px;
+}
+
+tbody tr:hover{
+    /* background-color: pink; */
+    color: rgb(129, 51, 64);
+}
 
 
 /* data table end */
