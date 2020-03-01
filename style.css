@@ -54,9 +54,8 @@ body{
 
 .box{
     background-color: white;
-    margin-top: 50px;
+    margin: 50px 0px 0px 0px;
     padding-bottom: 25px;
-    margin-bottom: 50px;
 }
 
 hr{
@@ -106,7 +105,7 @@ h2{
 
 .comparison{
     background-color: white;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 /* .comparison box{
@@ -156,8 +155,7 @@ h2{
 /* footer styling start */
 
 .copyright-container{
-    margin-left: 0;
-    margin-right: 0;
+    margin: 50px 0px 0px;
 }
 
 .copyright{
